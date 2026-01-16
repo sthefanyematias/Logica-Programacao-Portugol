@@ -8,13 +8,13 @@ programa
 		{
 			para (inteiro c = 0; c < 5; c++)
 			{
-				escreva("Valor [", l, "][", c, "]: ")
+				escreva("valor [", l, "][", c, "]: ")
 				leia(matriz[l][c])
 			}
 		}
 
 		limpa()
-		escreva("Elementos da Diagonal Principal:\n")
+		escreva("elementos da diagonal principal:\n")
 		para (inteiro i = 0; i < 5; i++)
 		{
 			escreva(matriz[i][i], " ")
