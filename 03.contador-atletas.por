@@ -7,7 +7,7 @@ programa
 	
 		para (i = 1; i <= 4; i++)
 		{
-			escreva("Informe a altura do ", i, "º atleta: ")
+			escreva("informe a altura do ", i, "º atleta: ")
 			leia(altura)
 
 			se (altura < 1.80)
@@ -17,6 +17,6 @@ programa
 	 	}
 	 
 		limpa()
-		escreva("Atletas com altura menor de 1.80m: ", contador_baixos)
+		escreva("atletas com altura menor de 1.80m: ", contador_baixos)
 	}
 }
