@@ -8,23 +8,23 @@ programa
 
 		faca
 		{
-			escreva("Nome do funcionário: ")
+			escreva("nome do funcionário: ")
 			leia(funcionario)
-			escreva("Salário base: ")
+			escreva("salário base: ")
 			leia(salario_fixo)
-			escreva("Total de vendas no mês: ")
+			escreva("total de vendas no mês: ")
 			leia(total_vendas)
 
 			comissao = total_vendas * 0.15
 			salario_final = salario_fixo + comissao
 
 			limpa()
-			escreva("Relatório de Vendas - ", funcionario, "\n")
-			escreva("Salário Fixo: R$ ", salario_fixo, "\n")
-			escreva("Comissão (15%): R$ ", comissao, "\n")
-			escreva("Total a Receber: R$ ", salario_final, "\n")
+			escreva("relatório de vendas - ", funcionario, "\n")
+			escreva("salário fixo: R$ ", salario_fixo, "\n")
+			escreva("comissão (15%): R$ ", comissao, "\n")
+			escreva("total a receber: R$ ", salario_final, "\n")
 
-			escreva("\nDeseja calcular outro funcionário? (s/n): ")
+			escreva("\ndeseja calcular outro funcionário? (s/n): ")
 			leia(continuar)
 			limpa()
 		} enquanto (continuar == 's' ou continuar == 'S')
