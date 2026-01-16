@@ -5,11 +5,11 @@ programa
 		caracter opcao
 		real salario, novo_salario
 
-		escreva("Digite o salário atual: ")
+		escreva("digite o salário atual: ")
 		leia(salario)
 		limpa()
 
-		escreva("Margem de aumento:\na) 10%\nb) 20%\nc) 30%\nEscolha: ")
+		escreva("margem de aumento:\na) 10%\nb) 20%\nc) 30%\nescolha: ")
 		leia(opcao)
 		
 		escolha (opcao)
@@ -25,9 +25,9 @@ programa
 				pare
 			caso contrario:
 				novo_salario = salario
-				escreva("Opção inválida. Salário mantido.\n")
+				escreva("opção inválida. salário mantido.\n")
 		}
 
-		escreva("Novo salário atualizado: R$ ", novo_salario)
+		escreva("novo salário atualizado: R$ ", novo_salario)
 	}
 }
