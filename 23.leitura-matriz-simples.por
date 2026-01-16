@@ -8,13 +8,13 @@ programa
 		{
 			para (inteiro coluna = 0; coluna < 2; coluna++)
 			{
-				escreva("Digite o valor para [", linha, "][", coluna, "]: ")
+				escreva("digite o valor para [", linha, "][", coluna, "]: ")
 				leia(matriz[linha][coluna])
 			}
 		}
 
 		limpa()
-		escreva("Elementos da Matriz:\n")
+		escreva("elementos da matriz:\n")
 		para (inteiro linha = 0; linha < 2; linha++)
 		{
 			para (inteiro coluna = 0; coluna < 2; coluna++)
