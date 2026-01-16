@@ -5,10 +5,10 @@ programa
 		cadeia nome
 		inteiro idade, anos_restantes
 		
-		escreva("Informe seu nome: ")
+		escreva("informe seu nome: ")
 		leia(nome)
 		
-		escreva("Informe sua idade: ")
+		escreva("informe sua idade: ")
 		leia(idade)
 		limpa()
 
