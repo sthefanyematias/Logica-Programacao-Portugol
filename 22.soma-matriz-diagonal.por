@@ -2,13 +2,13 @@ programa
 {
 	funcao inicio()
 	{
-		const inteiro Tamanho = 5
-		inteiro matriz[Tamanho][Tamanho]
+		const inteiro tamanho = 5
+		inteiro matriz[tamanho][tamanho]
 		inteiro soma_total = 0, valor_incremental = 1
 
-		para (inteiro linha = 0; linha < Tamanho; linha++)
+		para (inteiro linha = 0; linha < tamanho; linha++)
 		{
-			para (inteiro coluna = 0; coluna < Tamanho; coluna++)
+			para (inteiro coluna = 0; coluna < tamanho; coluna++)
 			{
 				matriz[linha][coluna] = valor_incremental
 				soma_total += matriz[linha][coluna]
@@ -16,6 +16,6 @@ programa
 			}
 		}
 
-		escreva("A soma de todos os elementos da matriz é: ", soma_total)
+		escreva("a soma de todos os elementos da matriz é: ", soma_total)
 	}
 }
